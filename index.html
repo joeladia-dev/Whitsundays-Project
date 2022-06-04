@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Whitsundays</title>
+  </head>
+  <body>
+    
+    <div class="topnav">
+      <img src="assets/youtube.png" alt="" class="img-youtube" />
+      <a class="active" href="#background">Background & Challenge</a>
+      <a href="#solution">Solution</a>
+      <a href="#result">Result & Effectiveness</a>
+      <a href="#slide">Slide Show</a>
+
+      <div class="download-board">
+        <img src="assets/download.svg" alt="download" class="img-download">
+        <a href="#download" class="download-text" >Download Board</a>
+      </div> 
+    </div>
+
+    <div class="dot-nav">
+      <div class="container-fluid">
+        <div id="nav-container">
+            <nav id="mainnav" class="">
+              <ul class="dotnav dotnav-vertical dotnav-right nav">
+                <li class="nav-tooltip" title="Background & Challenge">
+                  <a href="#background"></a>
+                </li>
+                <li class="nav-tooltip" title="Solution">
+                  <a href="#solution"></a>
+                </li>
+                <li class="nav-tooltip" title="Result">
+                  <a href="#result"></a>
+                </li>
+                <li class="nav-tooltip" title="Slide">
+                  <a href="#slide"></a>
+                </li>
+              </ul>
+            </nav>
+        </div>
+      </div>
+    </div>
+    
+    <section class="showcase" id="background">
+      <div class="video-container">
+        <video src="assets/video.mp4" class="my-video" muted loop></video>
+      </div>
+
+      <div class="overlay"></div>
+      <div class="text">
+        <h5 class="left-margin">the</h5>
+        <h3>Whitsundays</h3>
+        <p>A movie that's waiting to be written</p>
+      </div>
+      <div class="pause-btn" onclick="playPause()">
+        <img src="assets/play2.png" alt="play-button" class="play-button"/>
+      </div>
+    </section>
+
+    <div class="container">
+      <section></section>
+      <section class="one" id="solution">
+        <div class="left">
+          <div class="text-2">
+            <h5 class="left-margin">The</h5>
+            <h3>Whitsundays</h3>
+            <h2>a movie that's waiting to be written</h2>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="text-2">
+            <h4 class="bolder">Background</h4>
+            <h4 class="bolder">& Audience</h4>
+            <p>
+              Tourism and Events Queensland wanted to increase consideration of
+              the Whitsundays amongst social fun seekers ; digitally savvy
+              consumers that socialise substantially online
+            </p>
+          </div>
+          <div class="text-2">
+            <h4>Problem</h4>
+            <p>
+              The Whitsundays was losing its cachet as an inspirational holiday
+              location.
+            </p>
+          </div>
+          <div class="text-2">
+            <h4>Objective</h4>
+
+            <p>
+              Shift perceptions and re-build thw Whitsunday's social currency as
+              word-class destination.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="two" id="result">
+        <div class="text-3">
+          <h1>Solution</h1>
+        </div>
+        <div class="right-2">
+          <p>
+            We knew movies rated high on the list of our target's interest and,
+            with incredible beaches, seaplanes, yachts and glamorous locations,
+            the Whitsundays is the perfect setting for a movie.
+          </p>
+          <p>So we invited Australians to write it :</p>
+          <h3 class="utils-1">The Whitsundays.</h3>
+          <h3>A movie that's waiting to be written.</h3>
+          <p>
+            We enlisted world-renowned screenwriter Craig Pearce as Script
+            Supervisor. Then for 20 days we posted a daily storyboard image on
+            Facebook and Instgram, Inviting the public to write scenes for a
+            chance to win a $10,000 luxury holiday
+          </p>
+        </div>
+        <div class="left-2">
+          <p>
+            The campaign launched with a trailer, radio and online advertising.
+          </p>
+          <p>
+            We reacted to the storyline as it developed, selecting and treating
+            images according to the previous winning scene.
+          </p>
+          <p>
+            Each scene written and shared became a compelling "ad" for the
+            Whitsundays
+          </p>
+          <p>
+            Together, a Hollywood screenwriter and the Australian public had
+            created the world's first crowd-sourced movie storyboard and a story
+            universe with millions of possible permutations
+          </p>
+        </div>
+      </section>
+      <section class="three" id="slide">
+        <div class="tab-wrap">
+          <input type="radio" name="tabs" id="tab1" checked />
+          <div class="tab-label-content" id="tab1-content">
+            <label for="tab1">Video</label>
+            <div class="tab-content">
+              <div class="video-mask">
+                <video src="assets/video.mp4" muted loop autoplay></video>
+              </div>
+            </div>
+          </div>
+
+          <input type="radio" name="tabs" id="tab2" />
+          <div class="tab-label-content" id="tab2-content">
+            <label for="tab2">Photography</label>
+            <div class="tab-content">
+              Photography Tab - Quisque egestas, purus in tempor vulputate, diam augue
+              mollis quam, quis elementum ipsum ex a risus. Quisque sed augue
+              porta, facilisis felis vitae, cursus mi. Nullam mollis magna eget
+              tincidunt mollis. Sed suscipit placerat ultricies. Sed eget lorem
+              et ipsum ultricies congue eu a enim. Nam quis ex nec lorem
+              dignissim suscipit eu ut felis. Vivamus molestie felis id purus
+              congue, vel ultrices sem molestie.
+            </div>
+          </div>
+
+          <input type="radio" name="tabs" id="tab3" />
+          <div class="tab-label-content" id="tab3-content">
+            <label for="tab3">Social</label>
+            <div class="tab-content">
+              Social - Donec vulputate ante ac ligula vestibulum, id mollis diam
+              commodo. Integer at consequat magna. Sed elit sem, dictum nec
+              porttitor ac, ultrices id enim. Morbi semper eros a enim
+              malesuada, eu finibus erat dictum. Ut vitae orci a odio sagittis
+              malesuada. Cras volutpat vel lorem in tempor. Duis ultricies
+              lectus sit amet tellus vehicula faucibus. Etiam sed leo ac erat
+              tempor feugiat at quis ipsum. Mauris pellentesque nisl lorem, ac
+              finibus sapien sagittis vel. Donec et lobortis est. Vestibulum
+              dignissim ligula nec erat interdum, quis sollicitudin metus
+              pretium. Vestibulum quis dui sapien. Proin commodo justo ac orci
+              elementum molestie. Aliquam mattis orci vitae volutpat commodo.
+            </div>
+          </div>
+
+          
+          <input type="radio" name="tabs" id="tab4" />
+          <div class="tab-label-content" id="tab4-content">
+            <label for="tab4">PR</label>
+            <div class="tab-content">
+              PR - Donec vulputate ante ac ligula vestibulum, id mollis diam
+              commodo. Integer at consequat magna. Sed elit sem, dictum nec
+              porttitor ac, ultrices id enim. Morbi semper eros a enim
+              malesuada, eu finibus erat dictum. 
+            </div>
+          </div>
+
+          <input type="radio" name="tabs" id="tab5" />
+          <div class="tab-label-content" id="tab5-content">
+            <label for="tab5">Radio</label>
+            <div class="tab-content">
+              Radio - Quisque egestas, purus in tempor vulputate, diam augue
+              mollis quam, quis elementum ipsum ex a risus. Quisque sed augue
+              porta, facilisis felis vitae, cursus mi. Nullam mollis magna eget
+              tincidunt mollis. Sed suscipit placerat ultricies. Sed eget lorem
+              et ipsum ultricies congue eu a enim. Nam quis ex nec lorem
+              dignissim suscipit eu ut felis. Vivamus molestie felis id purus
+              congue, vel ultrices sem molestie.
+            </div>
+          </div>
+          </div>
+        <div>
+    </div>
+      <div class="right-3">
+        <p>Live reads from NOVA presenters reflected the ever-evolving story of Jake in real time, and encouraged people to get involve to shape the story themselves.</p>
+        <button class="project-btn">View Project</button>
+      </div>
+   </section>
+   <script src="index.js"></script>
+  </body>
+</html>
